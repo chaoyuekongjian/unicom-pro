@@ -1,0 +1,122 @@
+@import 'element';
+@import 'margin';
+
+body {
+    height: 100%;
+    margin: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: "Microsoft YaHei", "微软雅黑", Arial, sans-serif, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB";
+}
+
+label {
+    font-weight: 700;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#app {
+    height: 100%;
+    min-width: 1366px;
+    // min-width: 1225px
+}
+.app-container, .el-container {
+    height: 100%;
+}
+
+.header {
+    height: 60px;
+    box-shadow: 0px 4px 6px 0px #646A813F;
+    padding: 0 24px 0 0;
+    z-index: 99;
+}
+
+.el-main {
+    height: calc(100% - 60px);
+    padding: 0;
+}
+
+.data-content {
+    width: 287px;
+    padding: 24px!important;
+    .title {
+        color: #303133;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .sub-title {
+        color: #909399;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .user-count {
+        color: #303133;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .progress {
+        margin-top: 9px;
+    }
+    &>div {
+        &>div:nth-child(2), &>div:nth-child(3) {
+            margin-top: 24px;
+        }
+        &>div:nth-child(4) {
+            margin-top: 25px;
+        }
+        &>div:nth-child(5) {
+            margin-top: 9px;
+        }
+        .flex {
+            display: flex;
+            justify-content: space-between;
+        }
+        .count {
+            color: #303133;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .unit {
+            color: #909399;
+            font-size: 12px;
+            line-height: 20px;
+        }
+    }
+}
+
+.el-dialog {
+    border-radius: 4px;
+    width: 600px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.theme-color {  // 进行中
+    color: $themeColor;
+}
+
+.theme-green {  // 成功色
+    color: #67C23A;
+}
+
+.theme-failed { // 错误色  失败色
+    color: #F56C6C;
+}
+
+.theme-gray {
+    color: #909399;
+}
+
+.theme-yellow { // 离线 报警
+    color: #E6A23C;
+}
+
+.theme-black {
+    color: #606266;
+}

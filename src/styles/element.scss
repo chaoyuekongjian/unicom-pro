@@ -1,0 +1,25 @@
+$themeColor: #D80A17;
+
+.el-button--text {
+  color: $themeColor
+}
+
+.el-button--text:not(.is-disabled):focus, .el-button--text:not(.is-disabled):hover {
+  color: $themeColor
+}
+
+.el-button--primary {
+  background: $themeColor;
+  color: #fff;
+  border: none;
+}
+
+.el-button--primary:not(.is-disabled):focus, .el-button--primary:not(.is-disabled):hover {
+  background: $themeColor;
+  color: #fff;
+  border: none;
+}
+
+.is-disabled {
+  background-color: #ce696f !important;
+}

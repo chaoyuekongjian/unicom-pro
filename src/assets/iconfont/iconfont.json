@@ -1,0 +1,58 @@
+{
+  "id": "3516681",
+  "name": "联通云运营平台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "21586972",
+      "name": "ellipsis-v1",
+      "font_class": "ellipsis-v1",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "22623942",
+      "name": "正常-系统状态-#67C23A",
+      "font_class": "zhengchang",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "22623943",
+      "name": "异常-系统状态-#E6A23C",
+      "font_class": "yichang",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "30550092",
+      "name": "资源池",
+      "font_class": "ziyuanchi",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "30525841",
+      "name": "资源概览",
+      "font_class": "ziyuangailan",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "30525842",
+      "name": "操作日志",
+      "font_class": "caozuorizhi",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "30525843",
+      "name": "用户管理",
+      "font_class": "yonghuguanli",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    }
+  ]
+}
